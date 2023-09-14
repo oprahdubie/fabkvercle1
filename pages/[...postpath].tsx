@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://saveourstateok.org/` + encodeURI(path as string)
+					`https://www.od9jastyles.com/` + encodeURI(path as string)
 				}`,
 			},
 		};
@@ -83,7 +83,7 @@ const Post: React.FC<PostProps> = (props) => {
 	return (
 		<>
 			<Head>
-				<meta property="og:title" content={post.title} />
+				<meta property="og:title" content="" />
 				<meta property="og:description" content={removeTags(post.excerpt)} />
 				<meta property="og:type" content="article" />
 				<meta property="og:locale" content="en_US" />
